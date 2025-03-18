@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    
+}
+header, main, footer{
+    --w: 1000px;
+    width: var(--w);
+    margin: 40px calc((100% - var(--w)) / 2) 0;
+    display: inline-block;
+ 
+}
+
+
+  
+header > img {
+    float: left;
+  height: 40px;
+
+}
+nav {
+    float: right;
+  
+}
+
+nav > a {
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    color:black;
+    text-decoration: none;
+    margin-left: 30px;
+   
+    
+    padding: 10px 0;
+   
+    
+}
+
+nav > a:first-child{
+    margin-left: 0;
+}
+main{
+    background-color: red;
+}
+
+main > div {
+    float: left;
+    width: 40%;
+    margin-top: 25px;
+}
+main > div> img {
+    float: left;
+    width: 60%;
+}
+
+div > p:nth-of-type(1) {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 200;
+}
+div > p:nth-of-type(2) {
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+    background-color: green;
+}
+div > p:nth-of-type(3) {
+    font-size: 20px;
+    margin: 0;
+    color: rgb(114, 75, 75);
+}
+/*linija*/
+div > div:nth-of-type(1) {
+    width: 100px;
+    height: 5px;
+    background-color: violet;
+    color:white;
+    border: 3px solid violet;
+    text-transform: uppercase;
+}
+div > div:nth-of-type(2) {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgb(10, 10, 10);
+
+   
+}
+div > div:nth-of-type(2)>a:hover {
+    background-color: rosybrown;
+    color:red;
+    box-shadow: 0px 6px 12px 0px black;
+}
+
+div > div:nth-of-type(2) > a:first-child {
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    padding:20px 40px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color: rgb(244, 245, 248);
+}
+div > div:nth-of-type(2) > a:last-child {
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    padding:20px 40px;
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color: royalblue;
+}
+
+main > img {
+    float: right;
+    width: 60%;
+}
+footer{
+    margin-bottom:40px;
+}
+
+footer > div {
+    float: left;
+}
+
+footer > div > a {
+    font-size: 10px;
+}
+
+
+footer > p {
+    float: right;
+    margin: 0;
+}
