@@ -5,7 +5,7 @@ website design project
 🌟 About
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-kucijurg.github.io/54-grupe-website
+Site published at: https://kucijurg.github.io/54-grupe-website
 
 Design: https://dribbble.com/shots/2815937-404-page
 
